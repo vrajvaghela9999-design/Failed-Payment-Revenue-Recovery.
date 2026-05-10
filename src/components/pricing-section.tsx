@@ -66,6 +66,8 @@ export function PricingSection({
             <div className="space-y-3">
               <a
                 href={ctaHref}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={cn(
                   buttonVariants({ size: "lg" }),
                   "w-full text-base font-semibold"

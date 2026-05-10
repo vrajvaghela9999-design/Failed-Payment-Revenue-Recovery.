@@ -56,6 +56,8 @@ export function HeroSection({
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
             href={primaryHref}
+            target="_blank"
+            rel="noopener noreferrer"
             className={cn(
               buttonVariants({ size: "lg" }),
               "min-w-[200px] text-base font-semibold"
